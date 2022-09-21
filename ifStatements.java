@@ -1,4 +1,4 @@
-public class HelloWorld
+public class ifStatements
 {
 
     int a = 5;
@@ -22,7 +22,7 @@ public class HelloWorld
         } else {
             System.out.println("FAILURE");
         }
-        if (d == -8 && a == 4) {
+        if (d == -8 &&  a== 4) {
             System.out.println("SUCCESS");
         } else {
             System.out.println("FAILURE");
@@ -34,7 +34,7 @@ public class HelloWorld
     
     public static void main(String[] args)
     {        
-        HelloWorld hw = new HelloWorld();
+        ifStatements hw = new ifStatements();
         hw.run();
     }
 }
